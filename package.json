@@ -1,0 +1,53 @@
+{
+  "name": "@zal-kit/utils",
+  "version": "1.0.0",
+  "description": "A lightweight collection of TypeScript utility functions for class merging, variants, and formatting",
+  "author": "zidanez",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zal-kit/utils.git"
+  },
+  "homepage": "https://github.com/zal-kit/utils#readme",
+  "bugs": {
+    "url": "https://github.com/zal-kit/utils/issues"
+  },
+  "keywords": [
+    "typescript",
+    "utils",
+    "utilities",
+    "helpers",
+    "cx",
+    "formatting"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"No tests yet\""
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
