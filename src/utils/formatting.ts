@@ -2,7 +2,7 @@ export const displayText = (
   text: null | string | undefined,
   defaultText = "-",
 ) => {
-  if (!Boolean(text)) return defaultText;
+  if (!text) return defaultText;
 
   return text as string;
 };

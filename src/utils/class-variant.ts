@@ -4,6 +4,7 @@ const mergeClasses = (...parts: ClassValue[]) => {
   return parts.filter(Boolean).join(" ");
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type VariantPropsOf<T extends (...args: any) => any> = NonNullable<
   Parameters<T>[0]
 >;

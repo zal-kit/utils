@@ -1,6 +1,6 @@
 {
   "name": "@zal-kit/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight collection of TypeScript utility functions for class merging, variants, and formatting",
   "author": "zidanez",
   "license": "MIT",
@@ -42,7 +42,16 @@
     "test": "echo \"No tests yet\""
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.3.0",
+    "jiti": "^2.6.1",
+    "prettier": "3.8.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.55.0"
   },
   "publishConfig": {
     "access": "public"
