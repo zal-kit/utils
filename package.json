@@ -1,6 +1,6 @@
 {
   "name": "@zal-kit/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight collection of TypeScript utility functions for class merging, variants, and formatting",
   "author": "zidanez",
   "license": "MIT",
