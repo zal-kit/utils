@@ -1,4 +1,4 @@
-export const logFetchDev = ({
+export const logFetch = ({
   url,
   method,
   status,
